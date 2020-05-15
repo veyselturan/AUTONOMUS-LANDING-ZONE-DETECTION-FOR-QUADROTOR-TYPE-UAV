@@ -34,51 +34,6 @@ while(True):
 
         clear_all() 
 
-        """
-        if(altitude <=1):
-            h1=50
-            w1=50
-            sequence1 = [xi for xi in range(50,550)]    
-            sequence2 = [yi for yi in range(50,350)]       
-            a = random.choice(sequence1)
-            b = random.choice(sequence2)            
-            
-            
-        elif(altitude>1 and altitude <=2):
-            h1=40
-            w1=40
-            sequence1 = [xi for xi in range(40,560)]    
-            sequence2 = [yi for yi in range(40,360)]       
-            a = random.choice(sequence1)
-            b = random.choice(sequence2)
-
-           
-        elif(altitude>2and altitude <=3):
-            h1=30
-            w1=30
-            sequence1 = [xi for xi in range(30,570)]    
-            sequence2 = [yi for yi in range(30,370)]       
-            a = random.choice(sequence1)
-            b = random.choice(sequence2)
-
-            
-        elif(altitude>3 and altitude <=4):
-            h1=20
-            w1=20
-            sequence1 = [xi for xi in range(20,580)]    
-            sequence2 = [yi for yi in range(20,380)]       
-            a = random.choice(sequence1)
-            b = random.choice(sequence2)
-        
-        
-        elif(altitude>4 and altitude <=5):
-            h1=10
-            w1=10   
-            sequence1 = [xi for xi in range(10,590)]    
-            sequence2 = [yi for yi in range(10,390)]       
-            a = random.choice(sequence1)
-            b = random.choice(sequence2)            
-        """
         
         size = 400,600,3
         img1 = cv2.imread('trial1.jpg')
