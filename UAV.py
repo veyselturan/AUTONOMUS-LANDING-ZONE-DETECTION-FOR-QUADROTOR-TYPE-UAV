@@ -35,6 +35,8 @@ while(True):
         clear_all() 
 
         """
+        #that's the pixel size of landing are which depends on altitude
+        
         if(altitude <=1):
             h1=50
             w1=50
@@ -143,7 +145,7 @@ while(True):
         
         #if the are is available for landing then show image and landing area
         if len(centers) == 0:
-            print("Alan uygun")
+            print("Area is available")
             cv2.rectangle(img1,(a,b),(a+h1,b+w1),(0,0,255),-1)
             cv2.imshow('Sonuc',img1)
             
@@ -152,7 +154,7 @@ while(True):
         
          #if selected area is NOT avaliable for landing then go back the loop and run again  
         else:
-            print("Alan uygun değil")
+            print("Area is NOT available")
             continue
     
 
