@@ -98,7 +98,7 @@ while(True):
         
         #if the are is available for landing then show image and landing area
         if len(centers) == 0:
-            print("Alan uygun")
+            print("Area is avaliable for landing")
             cv2.rectangle(img1,(a,b),(a+h1,b+w1),(0,0,255),-1)
             cv2.imshow('Sonuc',img1)
             
@@ -107,7 +107,7 @@ while(True):
         
          #if selected area is NOT avaliable for landing then go back the loop and run again  
         else:
-            print("Alan uygun değil")
+            print("Area is not available for landing")
             continue
     
 
